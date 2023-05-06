@@ -24,8 +24,8 @@
 				</li>
 				<li><a>Ayuda</a>
 						<ul>
-							<li><a>Documentación</a></li>
-							<li><a href="#" onclick="showStdInfo()" target="_blank">Información del estudiante</a></li>
+							<li><a href="https://github.com/pduarteg/IPC2_Proyecto3_201709149_2023/tree/main/Documentación%20P3" target="_blank">Documentación</a></li>
+							<li><a onclick="showStdInfo()">Información del estudiante</a></li>
 						</ul>
 				</li>
 				<li><a>Reestablecer datos</a></li>
@@ -40,11 +40,8 @@
 	<br>
 	<div id="solService">
 		<h1>Solicitar servicio</h1>
-		<form method="post" enctype="multipart/form-data">
-		  {% csrf_token %}
-		  <input type="file" name="xml_file">
-		  <button type="submit">Cargar archivo</button>
-		</form>
+		<p><a href="{% url 'Formulario Solicitud 1' %}">Solicitud No. 1</a></p>
+		<p><a>Solicitud No. 2</a></p>
 	</div>
 	<br>
 	<div id="sdtInfo">

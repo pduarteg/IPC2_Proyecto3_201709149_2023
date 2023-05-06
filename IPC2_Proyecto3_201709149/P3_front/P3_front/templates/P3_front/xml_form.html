@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="PRUEBA" content="width=device-width, initial-scale=1">
+	<title>Proyecto 3 - Interfaz inicial</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'main_view_s.css' %}">	
+</head>
+<body>
+	<h1>Lectura de archivo de netrada </h1>
+	<form method="post" enctype="multipart/form-data">
+	{% csrf_token %}
+		<div>
+			<label for="xml-file">Selecciona un archivo XML:</label>
+			<input type="file" name="xml-file" id="xml-file">
+		</div>
+			<div>
+			<button type="submit">Cargar archivo</button>
+		</div>
+	</form>
+</body>
+</html>

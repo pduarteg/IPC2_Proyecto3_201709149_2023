@@ -73,3 +73,7 @@ ul, ol, li {
   border-radius: 15px 15px 15px 15px;
   display: none;
 }
+
+p a {
+  text-decoration: none;
+}

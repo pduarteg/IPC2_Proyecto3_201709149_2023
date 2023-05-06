@@ -17,8 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
+from django.contrib.auth.views import LoginView
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
-    path('my-url/', views.main_view, name='Proyecto 3'),
+    path('index/', views.main_view, name='Proyecto 3'),
+    path('formSolOne/', views.formXML_view, name='Formulario Solicitud 1'),
+    path('admin/', LoginView.as_view(), name='admin')
 ]
