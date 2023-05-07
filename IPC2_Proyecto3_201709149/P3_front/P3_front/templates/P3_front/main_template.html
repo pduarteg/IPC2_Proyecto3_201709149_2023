@@ -28,7 +28,7 @@
 							<li><a onclick="showStdInfo()">Información del estudiante</a></li>
 						</ul>
 				</li>
-				<li><a>Reestablecer datos</a></li>
+				<li><a href="{% url 'Reseteo de base de datos' %}">Reestablecer datos</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -40,8 +40,9 @@
 	<br>
 	<div id="solService">
 		<h1>Solicitar servicio</h1>
-		<p><a href="{% url 'Formulario Solicitud 1' %}">Solicitud No. 1</a></p>
-		<p><a>Solicitud No. 2</a></p>
+		<br>
+		<p><a href="{% url 'Formulario Solicitud 1' %}">Servicio No. 1: Carga de perfiles y palabras</a></p>
+		<p><a>Servicio No. 2: Creación de nuevos mensajes (Entrada)</a></p>
 	</div>
 	<br>
 	<div id="sdtInfo">

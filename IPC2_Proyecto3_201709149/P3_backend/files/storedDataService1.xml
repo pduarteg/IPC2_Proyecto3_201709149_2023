@@ -1,0 +1,26 @@
+<configuracion>
+	<perfiles>
+		<perfil>
+			<nombre> Miriam </nombre>
+			<palabrasClave>
+				<palabra>pm1</palabra>
+				<palabra>pm2</palabra>
+				<palabra>pm3</palabra>
+			</palabrasClave>
+		</perfil>
+		<perfil>
+			<nombre>Otro</nombre>
+			<palabrasClave>
+				<palabra>po1</palabra>
+				<palabra>po2</palabra>
+				<palabra>po3</palabra>
+			</palabrasClave>
+		</perfil>
+	</perfiles>
+	<descartadas>
+		<palabra>P1</palabra>
+		<palabra>P2</palabra>
+		<palabra>P3</palabra>
+		<palabra>P4</palabra>
+	</descartadas>
+</configuracion>

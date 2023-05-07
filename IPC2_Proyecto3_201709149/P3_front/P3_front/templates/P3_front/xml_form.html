@@ -9,16 +9,21 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'main_view_s.css' %}">	
 </head>
 <body>
-	<h1>Lectura de archivo de netrada </h1>
-	<form method="post" enctype="multipart/form-data">
-	{% csrf_token %}
-		<div>
-			<label for="xml-file">Selecciona un archivo XML:</label>
-			<input type="file" name="xml-file" id="xml-file">
-		</div>
+	<br>
+	<div id="formContainer">
+		<h1>Lectura de archivo de entrada -Servicio 1-</h1>
+		<br>
+		<form method="post" enctype="multipart/form-data">
+		{% csrf_token %}
 			<div>
-			<button type="submit">Cargar archivo</button>
-		</div>
-	</form>
+				<label for="xml-file">Selecciona un archivo XML:</label>
+				<input type="file" name="xml-file" id="xml-file">
+			</div>
+			<br>
+			<div>
+				<center><button type="submit">Cargar archivo</button></center>
+			</div>
+		</form>
+	</div>
 </body>
 </html>

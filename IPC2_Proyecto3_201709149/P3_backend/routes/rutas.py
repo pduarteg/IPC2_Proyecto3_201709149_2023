@@ -11,7 +11,7 @@ from controllers.controller import *
 
 processXMLO = Blueprint("processXMLO", __name__)
 
-@processXMLO.route("/solOne", methods=['GET'])
+@processXMLO.route("/otro", methods=['GET'])
 def processSol1():
 	variable = processSolOne()
 	print(variable)

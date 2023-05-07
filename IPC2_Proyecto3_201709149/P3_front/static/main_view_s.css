@@ -57,11 +57,13 @@ ul, ol, li {
 }
 
 #solService {
-  background: skyblue;
+  background: #CD5C5C;
+  background: gray;
   width: 500px;
   margin: auto;
   display: none;
   padding: 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 #sdtInfo{  
@@ -76,4 +78,19 @@ ul, ol, li {
 
 p a {
   text-decoration: none;
+}
+
+#formContainer {
+  padding: 50px;
+  background: #CD5C5C;
+  width: 600px;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#formContainer form div button{
+  padding: 10px;
+  width: 200px;
+  background: black;
+  color: white;
 }

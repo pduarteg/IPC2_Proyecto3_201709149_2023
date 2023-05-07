@@ -23,5 +23,6 @@ urlpatterns = [
     #path('admin/', admin.site.urls),
     path('index/', views.main_view, name='Proyecto 3'),
     path('formSolOne/', views.formXML_view, name='Formulario Solicitud 1'),
+    path('resetData/', views.reset_view, name='Reseteo de base de datos'),
     path('admin/', LoginView.as_view(), name='admin')
 ]
